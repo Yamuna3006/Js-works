@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Dashboard</title>
+  
+</head>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('https://img.freepik.com/free-photo/scientists-working-power-saving-solutions-together_23-2148820209.jpg?semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;  
+  }
+  
+  .dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-image: url('https://img.freepik.com/free-photo/close-up-passport-with-bills_1232-444.jpg?ga=GA1.1.1097540299.1733242050');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25%;
+    background-color: #72ad54fd;
+    padding: 20px;
+    border-radius: 25px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card h3 {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+     
+</style>
+<body>
+  
+
+ 
+      <div class="dashboard-cards">
+        <div class="card">
+          <h3>Accounting</h3>
+          <a href="account.html"><img src="https://img.freepik.com/free-photo/businessman-paper-team-people-cooperation-executive_1418-75.jpg?uid=R166115279&ga=GA1.1.816187932.1731560001&semt=ais_hybrid" height="150px" width="100%"  style="border-radius: 20px;"></a>
+        </div>
+        <div class="card">
+          <h3>Credit</h3>
+          <a href="credit.html"><img src="https://img.freepik.com/premium-vector/business-flat-vector-concept-businessman-push-credit-card-phone-other-pull-money-out-metaphor-online-transaction_8073-589.jpg?semt=ais_hybrid" height="150px" width="100%"  style="border-radius: 20px;"></a>
+        </div>
+        <div class="card">
+          <h3>Debit</h3>
+          <a href="debit.html"><img src="https://img.freepik.com/free-photo/side-view-men-flea-market_23-2149536963.jpg?semt=ais_hybrid" height="150px" width="100%"  style="border-radius: 20px;"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html
